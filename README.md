@@ -33,13 +33,18 @@ Kinetic Shapes is an interactive, high-performance 2D physics simulation playgro
 ## 📁 Project Structure
 
 ```text
+.
 ├── components/
-│   ├── Canvas.tsx          # Core physics loop and rendering logic
-│   ├── SimulationCard.tsx  # Container for individual simulations
+│   ├── Canvas.tsx          # Core physics loop and Canvas rendering
+│   └── SimulationCard.tsx  # Individual simulation container component
 ├── utils/
-│   ├── math.ts            # Vector math and collision geometry utilities
-│   ├── presets.ts         # Configuration data for the 16 presets
-├── types.ts               # TypeScript interfaces and types
-├── App.tsx                # Main layout and global state management
-└── index.html             # Entry point with Tailwind and React config
+│   └── math.ts            # Vector math, geometry, and collision logic
+├── App.tsx                # Main application logic and state
+├── index.html             # Entry HTML template
+├── index.tsx              # React mounting point
+├── metadata.json          # Project metadata
+├── package.json           # Dependencies and scripts
+├── tsconfig.json          # TypeScript configuration
+├── types.ts               # Shared interfaces and types
+└── vite.config.ts         # Vite build configuration
 ```
