@@ -43,7 +43,3 @@ Kinetic Shapes is an interactive, high-performance 2D physics simulation playgro
 ├── App.tsx                # Main layout and global state management
 └── index.html             # Entry point with Tailwind and React config
 ```
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
