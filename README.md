@@ -14,13 +14,39 @@ Kinetic Shapes is an interactive, high-performance 2D physics simulation playgro
 - **Responsive Design**: Fluid grid layout that adapts to all screen sizes.
 - **Performance Optimized**: Efficient rendering loop using `requestAnimationFrame` for buttery-smooth 60 FPS simulations.
 
+## 🚀 Getting Started
+
+To run this project locally, you need **Node.js** installed on your machine.
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/kinetic-shapes.git
+   cd kinetic-shapes
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. Open the link shown in your terminal (usually `http://localhost:5173`).
+
+> **Note:** This project uses an `importmap` in `index.html` to load React from a CDN for instant previewing in some environments. For a standard local production build, ensure your `vite.config.ts` handles the build process correctly.
+
 ## 🛠️ Tech Stack
 
-- **Framework**: [React 19](https://react.dev/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
+- **Framework**: React 19
+- **Language**: TypeScript
 - **Graphics**: HTML5 Canvas API
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
 
 ## 🕹️ Controls
 
@@ -33,18 +59,17 @@ Kinetic Shapes is an interactive, high-performance 2D physics simulation playgro
 ## 📁 Project Structure
 
 ```text
-.
 ├── components/
-│   ├── Canvas.tsx          # Core physics loop and Canvas rendering
-│   └── SimulationCard.tsx  # Individual simulation container component
+│   ├── Canvas.tsx          # Core physics loop and rendering logic
+│   ├── SimulationCard.tsx  # Container for individual simulations
 ├── utils/
-│   └── math.ts            # Vector math, geometry, and collision logic
-├── App.tsx                # Main application logic and state
-├── index.html             # Entry HTML template
-├── index.tsx              # React mounting point
-├── metadata.json          # Project metadata
-├── package.json           # Dependencies and scripts
-├── tsconfig.json          # TypeScript configuration
-├── types.ts               # Shared interfaces and types
-└── vite.config.ts         # Vite build configuration
+│   ├── math.ts            # Vector math and collision geometry utilities
+│   ├── presets.ts         # Configuration data for the 16 presets
+├── types.ts               # TypeScript interfaces and types
+├── App.tsx                # Main layout and global state management
+└── index.html             # Entry point with Tailwind and React config
 ```
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
