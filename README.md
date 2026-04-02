@@ -2,7 +2,7 @@
 
 Kinetic Shapes is an interactive, high-performance 2D physics simulation playground built with React, TypeScript, and the HTML5 Canvas API. It features multiple simulation presets that demonstrate complex collision dynamics, variable gravity, and rotational mechanics in a modern, neon-inspired interface.
 
-## 🚀 Features
+## Features
 
 - **Real-time Physics Engine**: Custom-built collision detection and response for circle-to-circle and circle-to-polygon interactions.
 - **Interactive Global Controls**:
@@ -14,7 +14,7 @@ Kinetic Shapes is an interactive, high-performance 2D physics simulation playgro
 - **Responsive Design**: Fluid grid layout that adapts to all screen sizes.
 - **Performance Optimized**: Efficient rendering loop using `requestAnimationFrame` for buttery-smooth 60 FPS simulations.
 
-## 🚀 Getting Started
+## Getting Started
 
 To run this project locally, you need **Node.js** installed on your machine.
 
@@ -40,7 +40,7 @@ To run this project locally, you need **Node.js** installed on your machine.
 
 > **Note:** This project uses an `importmap` in `index.html` to load React from a CDN for instant previewing in some environments. For a standard local production build, ensure your `vite.config.ts` handles the build process correctly.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: React 19
 - **Language**: TypeScript
@@ -48,7 +48,7 @@ To run this project locally, you need **Node.js** installed on your machine.
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
 
-## 🕹️ Controls
+## Controls
 
 - **Sim Speed Slider**: Controls the `timeScale` of the physics update.
 - **Gravity Slider**: Multiplies the base gravity of each simulation.
@@ -56,7 +56,7 @@ To run this project locally, you need **Node.js** installed on your machine.
 - **Bounciness Slider**: Adjusts how much energy is conserved during collisions.
 - **Restart Button**: Click the refresh icon on any card to reset that specific simulation.
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 ├── components/
